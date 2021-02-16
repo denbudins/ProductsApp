@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <title>Product App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
   <body>
     <h1>Products App</h1>
-    <div>
-      <label>Product title</label>
-      <input id="productName" />
+    <div class="productSection">
+      <div class="formSection">
+        <label>Product title</label>
+        <input id="productName" />
+      </div>
       <button id="addProduct">Add product</button>
     </div>
-    <div>
-      <label id="numberOfProducts">Number of products: 0</label>
-      <button id="removeAllProduct">Remove all product</button>
+    <div class="removeProductSection">
+      <div class="removeSection">
+        <label id="numberOfProducts">Number of products: 0</label>
+        <button id="removeAllProduct">Remove all product</button>
+      </div>
       <ul id="listOfProduct"></ul>
     </div>
     <script type="text/javascript" src="app.js"></script>
